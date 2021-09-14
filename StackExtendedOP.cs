@@ -4,7 +4,7 @@ namespace Generics_SkillsLab
 {
     class StackExtendedOP
     {
-        public static void DisplayAllInternsNameAndId(ICustomStack<IInterns> stack)
+        public static void DisplayAllInternsNameAndId(IReadOnlyCustomStack<IInterns> stack)
         {
             while (stack.Count() > 0)
             {

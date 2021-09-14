@@ -1,11 +1,15 @@
 ﻿namespace Generics_SkillsLab
 {
-    public interface ICustomStack<T>
+    public interface IReadOnlyCustomStack<out T>
     {
         public int Count();
 
-        public void Push(T v);
-
         public T Pop();
+    }
+
+
+    public interface ICustomStack<T> : IReadOnlyCustomStack<T>
+    {
+        public void Push(T v);
     }
 }
