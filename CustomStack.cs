@@ -1,6 +1,6 @@
 ﻿namespace Generics_SkillsLab
 {
-    public class CustomStack<T>
+    public class CustomStack<T> : ICustomStack<T>
     {
         private T[] items;
         private int internalIndex = -1;
