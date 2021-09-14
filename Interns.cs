@@ -1,6 +1,6 @@
 ﻿namespace Generics_SkillsLab
 {
-    public class Jedi :IInterns
+    public class Jedi : IInterns
     {
         private int Id;
         private string Name;
@@ -11,8 +11,8 @@
             Name = name;
             Id = id;
         }
-    } 
-    
+    }
+
     public class SkillsLab : IInterns
     {
         private int Id;
