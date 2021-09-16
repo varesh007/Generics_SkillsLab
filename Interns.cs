@@ -12,6 +12,7 @@
         {
             Name = name;
             Id = id;
+            System.Console.WriteLine($"Jedi is being created With a name: {Name}!");
         }
     }
 
@@ -29,6 +30,7 @@
         {
             Name = name;
             Id = id;
+            System.Console.WriteLine($"SkillsLab is being created With a name: {Name}!");
         }
     }
 }
